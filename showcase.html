@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="HTML Showcase Page">
+
+    <meta name="keywords"
+        content="HTML, Tables, Portfolio">
+
+    <meta name="author"
+        content="Bilal Shafqat">
+
+    <title>HTML Showcase | Bilal Web Portfolio</title>
+
+    <link rel="icon"
+        href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+        type="image/png">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <center>
+
+            <h1>HTML Showcase</h1>
+
+            <p>
+                Explore HTML Tables, Multimedia, Progress Bars,
+                Entities and More.
+            </p>
+
+        </center>
+
+    </header>
+
+    <hr>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav>
+
+        <center>
+
+            <a href="index.html">Home</a> |
+
+            <a href="about.html">About Me</a> |
+
+            <a href="showcase.html">HTML Showcase</a> |
+
+            <a href="contact.html">Contact</a> |
+
+            <a href="reference.html">HTML Reference</a>
+
+        </center>
+
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <!-- ================= SIMPLE TABLE ================= -->
+
+        <section>
+
+            <h2>Student Information</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+
+                <caption>
+                    Student Record
+                </caption>
+
+                <thead>
+
+                    <tr>
+
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>City</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>101</td>
+                        <td>Talha</td>
+                        <td>HTML</td>
+                        <td>Saudia Arabia</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>102</td>
+                        <td>Dr.Zainab Khalid</td>
+                        <td>HTML</td>
+                        <td>Multan</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>103</td>
+                        <td>Khizra Khalid</td>
+                        <td>HTML</td>
+                        <td>Multan</td>
+
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+
+                    <tr>
+
+                        <td colspan="4">
+
+                            Total Students : 3
+
+                        </td>
+
+                    </tr>
+
+                </tfoot>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= COLSPAN TABLE ================= -->
+
+        <section>
+
+            <h2>Weekly Class Schedule</h2>
+
+            <table border="1" cellpadding="10">
+
+                <tr>
+
+                    <th>Day</th>
+                    <th colspan="2">Morning Session</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>CSS</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Tuesday</td>
+                    <td>JavaScript</td>
+                    <td>Bootstrap</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= ROWSPAN TABLE ================= -->
+
+        <section>
+
+            <h2>Teacher Timetable</h2>
+
+            <table border="1" cellpadding="10">
+
+                <tr>
+
+                    <th>Teacher</th>
+                    <th>Subject</th>
+                    <th>Time</th>
+
+                </tr>
+
+                <tr>
+
+                    <td rowspan="2">
+
+                        Bilal Shafqat
+
+                    </td>
+
+                    <td>HTML</td>
+                    <td>09:00 AM</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>CSS</td>
+                    <td>11:00 AM</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Bilal Shafqat</td>
+                    <td>JavaScript</td>
+                    <td>02:00 PM</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= IMAGE GALLERY ================= -->
+
+        <section>
+
+            <h2>Image Gallery</h2>
+
+            <figure>
+
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=350"
+                    alt="Programming"
+                    title="Programming"
+                    width="300"
+                    height="200">
+
+                <figcaption>
+                    Web Development Workspace
+                </figcaption>
+
+            </figure>
+
+            <figure>
+
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=350"
+                    alt="Laptop"
+                    title="Laptop"
+                    width="300"
+                    height="200">
+
+                <figcaption>
+                    Modern Coding Environment
+                </figcaption>
+
+            </figure>
+
+            <figure>
+
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=350"
+                    alt="Coding"
+                    title="Coding"
+                    width="300"
+                    height="200">
+
+                <figcaption>
+                    HTML Programming
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= AUDIO SECTION ================= -->
+
+        <section>
+
+            <h2>HTML Audio Demo</h2>
+
+            <audio controls preload="metadata">
+
+                <source src="https://www.w3schools.com/html/horse.mp3"
+                    type="audio/mpeg">
+
+                Your browser does not support the audio tag.
+
+            </audio>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= VIDEO SECTION ================= -->
+
+        <section>
+
+            <h2>HTML Video Demo</h2>
+
+            <video width="700"
+                height="400"
+                controls
+                poster="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900">
+
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4"
+                    type="video/mp4">
+
+                Your browser does not support the video tag.
+
+            </video>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= DOWNLOAD LINKS ================= -->
+
+        <section>
+
+            <h2>Useful Downloads</h2>
+
+            <p>
+
+                <a href="https://www.w3.org/TR/html52/"
+                    target="_blank">
+
+                    HTML Documentation
+
+                </a>
+
+            </p>
+
+            <p>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                    target="_blank">
+
+                    MDN HTML Guide
+
+                </a>
+
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= IMAGE ATTRIBUTES DEMO ================= -->
+
+        <section>
+
+            <h2>Image Attributes Demo</h2>
+
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600"
+                alt="Computer Setup"
+                title="Computer Setup"
+                width="600"
+                height="350">
+
+            <p>
+
+                This image demonstrates the use of
+                <code>src</code>,
+                <code>alt</code>,
+                <code>title</code>,
+                <code>width</code> and
+                <code>height</code> attributes.
+
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= YOUTUBE VIDEO ================= -->
+
+        <section>
+
+            <h2>Embedded YouTube Video</h2>
+
+            <iframe
+                width="700"
+                height="400"
+                src="https://www.youtube.com/embed/qz0aGYrrlhU"
+                title="HTML Tutorial"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= GOOGLE MAP ================= -->
+
+        <section>
+
+            <h2>Google Map</h2>
+
+            <iframe
+                src="https://www.google.com/maps?q=Islamabad&output=embed"
+                width="700"
+                height="400"
+                loading="lazy">
+            </iframe>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= PROGRESS ================= -->
+
+        <section>
+
+            <h2>Learning Progress</h2>
+
+            <p>HTML</p>
+            <progress value="95" max="100"></progress>
+
+            <p>CSS</p>
+            <progress value="60" max="100"></progress>
+
+            <p>JavaScript</p>
+            <progress value="20" max="100"></progress>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= METER ================= -->
+
+        <section>
+
+            <h2>Skill Level</h2>
+
+            <p>HTML</p>
+            <meter value="0.95">95%</meter>
+
+            <p>Problem Solving</p>
+            <meter value="0.80">80%</meter>
+
+            <p>Communication</p>
+            <meter value="0.75">75%</meter>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= DETAILS ================= -->
+
+        <section>
+
+            <details>
+
+                <summary>
+                    Click to Learn More About HTML5
+                </summary>
+
+                <p>
+                    HTML5 introduced semantic elements, multimedia support,
+                    new form controls, progress bars, meter tags,
+                    audio, video and many other useful features.
+                </p>
+
+            </details>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= HTML ENTITIES ================= -->
+
+        
+        <!-- ================= MARQUEE (Practice Only) ================= -->
+
+        <section>
+
+            <h2>Marquee Demo</h2>
+
+            <marquee behavior="scroll" direction="left">
+                Welcome to Bilal Web Portfolio
+            </marquee>
+
+            <marquee behavior="alternate" direction="right">
+                HTML Showcase Page
+            </marquee>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= CONTACT PREVIEW ================= -->
+
+        <section>
+
+            <h2>Contact Information</h2>
+
+            <address>
+
+                <strong>Bilal Shafqat</strong><br>
+
+                Web Development Student<br>
+
+                Bhakkar, Punjab, Pakistan<br><br>
+
+                Email :
+                <a href="mailto:bilal@example.com">
+                    bilalshafqat8686483@gmail.com
+                </a>
+
+                <br><br>
+
+                Phone :
+                <a href="tel:+923001234567">
+                    +92 325 8686483
+                </a>
+
+            </address>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= QUICK LINKS ================= -->
+
+        <section>
+
+            <h2>Quick Navigation</h2>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About Me</a></li>
+
+                <li><a href="showcase.html">HTML Showcase</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+                <li><a href="reference.html">HTML Reference</a></li>
+
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <!-- ================= SOCIAL LINKS ================= -->
+
+        <section>
+
+            <h2>Follow Me</h2>
+
+            <p>
+
+                <a href="https://github.com" target="_blank">
+                    GitHub
+                </a>
+
+                |
+
+                <a href="https://www.linkedin.com" target="_blank">
+                    LinkedIn
+                </a>
+
+                |
+
+                <a href="https://www.facebook.com" target="_blank">
+                    Facebook
+                </a>
+
+            </p>
+
+        </section>
+
+        <hr>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <center>
+
+            <p>
+
+                &copy; 2026 Bilal Web Portfolio.
+                All Rights Reserved.
+
+            </p>
+
+            <p>
+
+                Designed using only HTML5.
+
+            </p>
+
+        </center>
+
+    </footer>
+
+</body>
+
+</html>

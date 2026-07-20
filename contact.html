@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact Page">
+
+    <meta name="keywords"
+        content="HTML Forms, Contact">
+
+    <meta name="author"
+        content="Bilal Shafqat">
+
+    <title>Contact | Bilal Web Portfolio</title>
+
+    <link rel="icon"
+        href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+        type="image/png">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <center>
+
+            <h1>Contact Me</h1>
+
+            <p>
+                Get in touch by filling out the form below.
+            </p>
+
+        </center>
+
+    </header>
+
+    <hr>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav>
+
+        <center>
+
+            <a href="index.html">Home</a> |
+
+            <a href="about.html">About Me</a> |
+
+            <a href="showcase.html">HTML Showcase</a> |
+
+            <a href="contact.html">Contact</a> |
+
+            <a href="reference.html">HTML Reference</a>
+
+        </center>
+
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section>
+
+            <h2>Student Registration Form</h2>
+
+            <form action="#"
+                method="post"
+                autocomplete="on">
+
+                <fieldset>
+
+                    <legend>Personal Information</legend>
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <br>
+
+                    <input type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required>
+
+                    <br><br>
+
+                    <label for="father">
+
+                        Father Name
+
+                    </label>
+
+                    <br>
+
+                    <input type="text"
+                        id="father"
+                        name="father"
+                        placeholder="Enter father name">
+
+                    <br><br>
+
+                    <label for="email">
+
+                        Email Address
+
+                    </label>
+
+                    <br>
+
+                    <input type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        required>
+
+                    <br><br>
+
+                    <label for="password">
+
+                        Password
+
+                    </label>
+
+                    <br>
+
+                    <input type="password"
+                        id="password"
+                        name="password"
+                        minlength="8"
+                        maxlength="20"
+                        required>
+
+                   
+
+                    <br><br>
+
+                    <select name="" id="">
+                        <option value="">HTML</option>
+                         <option value="">CSS</option>
+                          <option value="">JS</option>
+                           <option value="">PHP</option>
+                            <option value="">JS Note</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="phone">
+
+                        Phone Number
+
+                    </label>
+                    
+
+                   
+
+                    <br>
+
+                    <input type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="+92 3001234567">
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= PERSONAL DETAILS ================= -->
+
+                <fieldset>
+
+                    <legend>Additional Information</legend>
+
+                    <label for="cnic">CNIC</label>
+                    <br>
+
+                    <input type="text"
+                        id="cnic"
+                        name="cnic"
+                        placeholder="35202-1234567-1"
+                        pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}"
+                        required>
+
+                    <br><br>
+
+                    <label for="dob">Date of Birth</label>
+                    <br>
+
+                    <input type="date"
+                        id="dob"
+                        name="dob">
+
+                    <br><br>
+
+                    <label for="time">Preferred Time</label>
+                    <br>
+
+                    <input type="time"
+                        id="time"
+                        name="time">
+
+                    <br><br>
+
+                    <label for="month">Birth Month</label>
+                    <br>
+
+                    <input type="month"
+                        id="month"
+                        name="month">
+
+                    <br><br>
+
+                    <label for="week">Select Week</label>
+                    <br>
+
+                    <input type="week"
+                        id="week"
+                        name="week">
+
+                    <br><br>
+
+                    <label for="age">Age</label>
+                    <br>
+
+                    <input type="number"
+                        id="age"
+                        name="age"
+                        min="15"
+                        max="100"
+                        step="1">
+
+                    <br><br>
+
+                    <label for="website">Website</label>
+                    <br>
+
+                    <input type="url"
+                        id="website"
+                        name="website"
+                        placeholder="https://example.com">
+
+                    <br><br>
+
+                    <label for="search">Search</label>
+                    <br>
+
+                    <input type="search"
+                        id="search"
+                        name="search"
+                        placeholder="Search here">
+
+                    <br><br>
+
+                    <label for="color">Favorite Color</label>
+                    <br>
+
+                    <input type="color"
+                        id="color"
+                        name="color">
+
+                    <br><br>
+
+                    <label for="range">Skill Level</label>
+                    <br>
+
+                    <input type="range"
+                        id="range"
+                        name="range"
+                        min="0"
+                        max="100"
+                        value="80">
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= GENDER ================= -->
+
+                <fieldset>
+
+                    <legend>Gender</legend>
+
+                    <input type="radio"
+                        id="male"
+                        name="gender"
+                        value="Male">
+
+                    <label for="male">Male</label>
+
+                    <br>
+
+                    <input type="radio"
+                        id="female"
+                        name="gender"
+                        value="Female">
+
+                    <label for="female">Female</label>
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= HOBBIES ================= -->
+
+                <fieldset>
+
+                    <legend>Hobbies</legend>
+
+                    <input type="checkbox"
+                        id="coding"
+                        name="hobby"
+                        value="Coding">
+
+                    <label for="coding">Coding</label>
+
+                    <br>
+
+                    <input type="checkbox"
+                        id="reading"
+                        name="hobby"
+                        value="Reading">
+
+                    <label for="reading">Reading</label>
+
+                    <br>
+
+                    <input type="checkbox"
+                        id="gaming"
+                        name="hobby"
+                        value="Gaming">
+
+                    <label for="gaming">Gaming</label>
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= COUNTRY ================= -->
+
+                <fieldset>
+
+                    <legend>Country & City</legend>
+
+                    <label for="country">
+                        Select Country
+                    </label>
+
+                    <br>
+
+                    <select id="country"
+                        name="country">
+
+                        <optgroup label="Asia">
+
+                            <option>Pakistan</option>
+                            <option>India</option>
+                            <option>China</option>
+
+                        </optgroup>
+
+                        <optgroup label="Europe">
+
+                            <option>United Kingdom</option>
+                            <option>Germany</option>
+                            <option>France</option>
+
+                        </optgroup>
+
+                    </select>
+
+                    <br><br>
+
+                    <label for="city">
+
+                        Select City
+
+                    </label>
+
+                    <br>
+
+                    <input type="text"
+                        id="city"
+                        name="city"
+                        list="cities"
+                        placeholder="Choose your city">
+
+                    <datalist id="cities">
+
+                        <option value="Bhakkar">
+                        <option value="Lahore">
+                        <option value="Islamabad">
+                        <option value="Karachi">
+                        <option value="Multan">
+
+                    </datalist>
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= FILE UPLOAD ================= -->
+
+                <fieldset>
+
+                    <legend>Upload Documents</legend>
+
+                    <label for="photo">
+
+                        Upload Profile Picture
+
+                    </label>
+
+                    <br>
+
+                    <input type="file"
+                        id="photo"
+                        name="photo"
+                        accept="image/*">
+
+                    <br><br>
+
+                    <label for="resume">
+
+                        Upload Resume
+
+                    </label>
+
+                    <br>
+
+                    <input type="file"
+                        id="resume"
+                        name="resume"
+                        accept=".pdf,.doc,.docx">
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= MESSAGE ================= -->
+
+                <fieldset>
+
+                    <legend>Your Message</legend>
+
+                    <label for="message">
+
+                        Message
+
+                    </label>
+
+                    <br>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="50"
+                        placeholder="Write your message here..."></textarea>
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= HIDDEN FIELD ================= -->
+
+                <input type="hidden"
+                    name="website"
+                    value="Bilal Web Portfolio">
+
+                <!-- ================= BUTTONS ================= -->
+
+                <fieldset>
+
+                    <legend>Submit Form</legend>
+
+                    <input type="submit"
+                        value="Submit Form">
+
+                    <input type="reset"
+                        value="Reset Form">
+
+                    <button type="button">
+
+                        Click Me
+
+                    </button>
+
+                </fieldset>
+
+                <hr>
+
+                <!-- ================= OUTPUT ================= -->
+
+                <fieldset>
+
+                    <legend>Output Example</legend>
+
+                    <output>
+
+                        Form Submitted Successfully
+
+                    </output>
+
+                </fieldset>
+
+                <hr>
+
+                </form>
+
+        
+
+</body>
+
+</html>
